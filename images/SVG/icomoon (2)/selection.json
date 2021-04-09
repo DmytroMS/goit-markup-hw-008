@@ -17,7 +17,7 @@
           "menu_24px"
         ],
         "colorPermutations": {
-          "2552552551331502431": [
+          "3315024313333331": [
             {}
           ]
         }
@@ -26,42 +26,14 @@
         {}
       ],
       "properties": {
-        "order": 24,
+        "order": 4,
         "id": 0,
         "name": "menu_24px",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 3,
       "iconIdx": 0
-    },
-    {
-      "icon": {
-        "paths": [
-          "M1024 103.132l-103.132-103.132-408.868 408.868-408.868-408.868-103.132 103.132 408.868 408.868-408.868 408.868 103.132 103.132 408.868-408.868 408.868 408.868 103.132-103.132-408.868-408.868 408.868-408.868z"
-        ],
-        "attrs": [
-          {}
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 16,
-        "tags": [
-          "close-btn"
-        ]
-      },
-      "attrs": [
-        {}
-      ],
-      "properties": {
-        "order": 18,
-        "id": 494,
-        "name": "close-btn",
-        "prevSize": 32
-      },
-      "setIdx": 1,
-      "setId": 1,
-      "iconIdx": 2
     }
   ],
   "height": 1024,
