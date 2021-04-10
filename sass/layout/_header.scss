@@ -64,6 +64,9 @@
 }
 
 .mobile-menu.is-open {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -99,8 +102,14 @@
   margin-bottom: 32px;
 }
 
+/*
 .mobile-menu__item:last-child {
   margin-bottom: 306px;
+}
+*/
+
+.modile-menu_contacts-list {
+  display: flex;
 }
 
 .mobile-menu__contacts-item:not(:last-child) {
@@ -130,7 +139,7 @@
 }
 
 .mobile-menu__social-item {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .mobile-menu__social-link {
