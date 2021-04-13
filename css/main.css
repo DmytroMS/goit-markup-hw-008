@@ -1843,19 +1843,50 @@ img {
   list-style: none;
 }
 
-.filters {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (max-width: 768px) {
+  .filters {
+    padding: 60px 15px;
+  }
+  .filters__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-top: -15px;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+  .filters__item {
+    margin-left: 8px;
+    margin-top: 15px;
+  }
 }
 
-.filters__list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+@media screen and (min-width: 768px) {
+  .filters {
+    padding: 60px 15px;
+  }
+  .filters__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .filters__item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
-.filters__item:not(:last-child) {
-  margin-right: 9px;
+@media screen and (min-width: 1200px) {
+  .filters {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .filters__list {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .filters__item:not(:last-child) {
+    margin-right: 9px;
+  }
 }
 
 .filters__button {
@@ -1885,13 +1916,12 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .filters__list {
+  .cards__item {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
   }
-  .filters__item {
-    margin-bottom: 15px;
+  .cards__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 

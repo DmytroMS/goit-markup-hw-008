@@ -1,12 +1,11 @@
 @media screen and (max-width: 768px) {
-  .filters__list {
+  .cards__item {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
   }
 
-  .filters__item {
-    margin-bottom: 15px;
+  .cards__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
