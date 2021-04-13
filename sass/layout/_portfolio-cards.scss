@@ -1,3 +1,15 @@
+@media screen and (max-width: 768px) {
+  .filters__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .filters__item {
+    margin-bottom: 15px;
+  }
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
